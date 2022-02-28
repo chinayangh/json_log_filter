@@ -1,0 +1,1 @@
+for i in $(cat /root/drawings/urls) ; do wget --connect-timeout=1 -t 3 -a wget-log $i ;done
